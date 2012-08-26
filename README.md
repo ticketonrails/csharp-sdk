@@ -1,4 +1,4 @@
-api-csharp-sdk
+csharp-sdk
 ==============
 
 Ticket on Rails Api C# Client
