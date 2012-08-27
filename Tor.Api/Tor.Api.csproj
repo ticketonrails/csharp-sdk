@@ -31,10 +31,16 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="RestSharp, Version=103.4.0.0, Culture=neutral, PublicKeyToken=null">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\RestSharp.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MyClass.cs" />
     <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Client.cs" />
+    <Compile Include="Ticket.cs" />
+    <Compile Include="Response.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
