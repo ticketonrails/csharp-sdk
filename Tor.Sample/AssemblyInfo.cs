@@ -9,7 +9,7 @@ using System.Runtime.CompilerServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("")]
-[assembly: AssemblyCopyright("gvnn")]
+[assembly: AssemblyCopyright("Ticket on Rails")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

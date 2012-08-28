@@ -1,3 +1,5 @@
 /api-csharp-sdk.userprefs
-bin
+bin/
+obj/
 *.pidb
+*.suo

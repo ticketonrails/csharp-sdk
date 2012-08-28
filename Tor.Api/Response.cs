@@ -1,17 +1,14 @@
-using System;
+using System.Runtime.Serialization;
 
 namespace Tor.Api
 {
-	public class Response
-	{
-		public string TicketId {
-			get;
-			set;
-		}
-		
-		public string TicketNumber {
-			get;
-			set;
-		}
-	}
+    [DataContract]
+    public class Response
+    {
+        [DataMember(Name = "id")]
+        public string TicketId { get; set; }
+
+        [DataMember(Name = "ticket")]
+        public string TicketNumber { get; set; }
+    }
 }
