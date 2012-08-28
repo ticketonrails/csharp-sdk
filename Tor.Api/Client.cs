@@ -75,7 +75,7 @@ namespace Tor.Api
                     response = content.FromJson<Response>();
                 }
             }
-            catch (System.Exception ex)
+            catch
             {
                 throw new Exception(content);
             }
